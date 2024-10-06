@@ -31,6 +31,12 @@ body {
   padding: 64px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
 /*--index.htmlのページに関するCSS--*/
 
 footer {
@@ -46,12 +52,12 @@ footer {
 }
 
 .paintedby {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.6;
 }
 
 .AYAKONDO {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -113,12 +119,58 @@ footer {
 
 /*--ROOMのページに関するCSS--*/
 
+.works {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 56px;
+  flex-wrap: wrap;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.work img {
+  display: flex;
+  height: 300px;
+  width: auto;
+}
+
+.work-title {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.work-caption {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.work-release {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+
 
 /*--ROOM1のページに関するCSS--*/
 .room1-rooms {
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;
@@ -150,7 +202,7 @@ footer {
 .room2-rooms {
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;
@@ -183,7 +235,7 @@ footer {
 .room3-rooms {
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;
@@ -218,7 +270,7 @@ footer {
 .room4-rooms {
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;
