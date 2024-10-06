@@ -73,8 +73,6 @@ footer {
 }
 
 .index-rooms {
-  container-name: index-rooms;
-  container-type: inline-size;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -148,7 +146,7 @@ footer {
   font-size: 18px;
 }
 
-.work-caption {
+.work-medium {
   font-family: "Shippori Mincho", serif;
   font-weight: 400;
   font-style: normal;
@@ -164,6 +162,39 @@ footer {
   font-size: 14px;
 }
 
+.entrance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.entrance-text {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.entrance-icon {
+  display: flex;
+  width: 25px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 9999px 9999px 0px 0px;
+  border: 1px solid #000;  
+    align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 
 
 /*--ROOM1のページに関するCSS--*/
