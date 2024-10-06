@@ -76,22 +76,25 @@ footer {
 }
 
 .index-rooms {
+  container-name: index-rooms;
+  container-type: inline-size;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   align-content: center;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  width: 70vw;
 }
 
 .index-rooms li {
   display: flex;
-  width: clamp(120px,20cqi,250px);
+  width: clamp(150px,20cqi,250px);
   height: clamp(180px,40cqb,430px);
   flex-direction: column;
   justify-content: center;
@@ -107,6 +110,7 @@ footer {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  min-width:400px;
 }
 
 .room3room4  {
@@ -116,6 +120,7 @@ footer {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  min-width: 400px;
 }
 
 /*--ROOMのページに関するCSS--*/
