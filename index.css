@@ -22,6 +22,37 @@ body {
   font-family: "Shippori Mincho", serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  padding: 64px;
+}
+
+/*--index.htmlのページに関するCSS--*/
+
+footer {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.paintedby {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.AYAKONDO {
+  font-size: 24px;
+  line-height: 1.6;
 }
 
 .exhibition-title {
@@ -29,4 +60,190 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.index-rooms {
+  container-name: index-rooms;
+  container-type: inline-size;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.index-rooms li {
+  display: flex;
+  width: 250px;
+  padding-block: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px 9999px 0px 0px;
+  border: 1px solid #000;
+}
+
+.room1room2  {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.room3room4  {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/*--ROOMのページに関するCSS--*/
+
+
+/*--ROOM1のページに関するCSS--*/
+.room1-rooms {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.room1-rooms .room1 {
+  color: #000;
+  border-bottom:solid #000 1px; /*borderの指定*/
+  padding-bottom:8px;
+}
+
+.room1-rooms .room2 {
+  color: #828282;
+}
+
+.room1-rooms .room3 {
+  color: #828282;
+}
+
+.room1-rooms .room4 {
+  color: #828282;
+}
+
+/*--ROOM2のページに関するCSS--*/
+.room2-rooms {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.room2-rooms .room1 {
+  color: #828282;
+}
+
+.room2-rooms .room2 {
+  color: #000;
+  border-bottom:solid #000 1px; /*borderの指定*/
+  padding-bottom:8px;
+}
+
+.room2-rooms .room3 {
+  color: #828282;
+}
+
+.room2-rooms .room4 {
+  color: #828282;
+}
+
+
+/*--ROOM3のページに関するCSS--*/
+.room3-rooms {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.room3-rooms .room1 {
+  color: #828282;
+}
+
+.room3-rooms .room2 {
+  color: #828282;
+}
+
+.room3-rooms .room3 {
+  color: #000;
+  border-bottom:solid #000 1px; /*borderの指定*/
+  padding-bottom:8px;
+}
+
+.room3-rooms .room4 {
+  color: #828282;
+}
+
+
+
+
+/*--ROOM4のページに関するCSS--*/
+.room4-rooms {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+
+.room4-rooms .room1 {
+  color: #828282;
+}
+
+.room4-rooms .room2 {
+  color: #828282;
+}
+
+.room4-rooms .room3 {
+  color: #828282;
+}
+
+.room4-rooms .room4 {
+  color: #000;
+  border-bottom:solid #000 1px; /*borderの指定*/
+  padding-bottom:8px;
+}
+
