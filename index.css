@@ -17,9 +17,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-}
 
 a:hover {
   cursor: url(/image/wing.png),auto;
@@ -182,9 +179,15 @@ footer {
 }
 
 .work img {
-  display: flex;
-  height: clamp(220px,60cqi,300px);
+  display: block;
+  height: 300px;
   width: auto;
+
+  @media (max-width:586px) {
+    display: block;
+    height: 280;
+    width: auto;
+  }
 }
 
 .work-title {
@@ -273,7 +276,7 @@ footer {
   gap: 56px;
   flex-wrap: nowrap;
 
-  @media (max-width:465px) {
+  @media (max-width:586px) {
     font-size: 14px;
     gap: 40px;
     flex-wrap: wrap;
@@ -288,15 +291,15 @@ footer {
 }
 
 .room1-rooms .room2 {
-  color: #828282;
+  color: #747474;
 }
 
 .room1-rooms .room3 {
-  color: #828282;
+  color: #747474;
 }
 
 .room1-rooms .room4 {
-  color: #828282;
+  color: #747474;
 }
 
 /*--ROOM2のページに関するCSS--*/
@@ -313,7 +316,7 @@ footer {
   gap: 56px;
   flex-wrap: wrap;
 
-  @media (max-width:465px) {
+  @media (max-width:586px) {
     font-size: 14px;
     gap: 40px;
     flex-wrap: wrap;
@@ -322,7 +325,7 @@ footer {
 }
 
 .room2-rooms .room1 {
-  color: #828282;
+  color: #747474;
 }
 
 .room2-rooms .room2 {
@@ -332,11 +335,11 @@ footer {
 }
 
 .room2-rooms .room3 {
-  color: #828282;
+  color: #747474;
 }
 
 .room2-rooms .room4 {
-  color: #828282;
+  color: #747474;
 }
 
 
@@ -354,7 +357,7 @@ footer {
   gap: 56px;
   flex-wrap: wrap;
 
-  @media (max-width:465px) {
+  @media (max-width:586px) {
     font-size: 14px;
     gap: 40px;
     flex-wrap: wrap;
@@ -363,11 +366,11 @@ footer {
 }
 
 .room3-rooms .room1 {
-  color: #828282;
+  color: #747474;
 }
 
 .room3-rooms .room2 {
-  color: #828282;
+  color: #747474;
 }
 
 .room3-rooms .room3 {
@@ -377,7 +380,7 @@ footer {
 }
 
 .room3-rooms .room4 {
-  color: #828282;
+  color: #747474;
 }
 
 
@@ -397,7 +400,7 @@ footer {
   gap: 56px;
   flex-wrap: wrap;
 
-  @media (max-width:465px) {
+  @media (max-width:586px) {
     font-size: 14px;
     gap: 40px;
     flex-wrap: wrap;
@@ -407,15 +410,15 @@ footer {
 
 
 .room4-rooms .room1 {
-  color: #828282;
+  color: #747474;
 }
 
 .room4-rooms .room2 {
-  color: #828282;
+  color: #747474;
 }
 
 .room4-rooms .room3 {
-  color: #828282;
+  color: #747474;
 }
 
 .room4-rooms .room4 {
