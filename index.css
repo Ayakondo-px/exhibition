@@ -57,16 +57,28 @@ footer {
   align-items: center;
   gap: 18px;
   padding-top: 30px;
+
+  @media (max-width: 465px) {
+    gap: 8px;
+  }
 }
 
 .paintedby {
   font-size: 14px;
   line-height: 1.6;
+
+  @media (max-width: 465px) {
+    font-size: 12px;
+  }
 }
 
 .AYAKONDO {
   font-size: 18px;
   line-height: 1.6;
+
+  @media (max-width: 465px) {
+    font-size: 16px;
+  }
 }
 
 .exhibition-title {
@@ -78,6 +90,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 32px;
+
+  @media (max-width: 465px) {
+    font-size: 24px;
+  }
 }
 
 .index-rooms {
