@@ -274,6 +274,13 @@ footer {
   align-items: flex-start;
   gap: 56px;
   flex-wrap: wrap;
+
+  @media (max-width:465px) {
+    font-size: 14px;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
 }
 
 .room2-rooms .room1 {
@@ -308,6 +315,13 @@ footer {
   align-items: flex-start;
   gap: 56px;
   flex-wrap: wrap;
+
+  @media (max-width:465px) {
+    font-size: 14px;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
 }
 
 .room3-rooms .room1 {
@@ -344,6 +358,13 @@ footer {
   align-items: flex-start;
   gap: 56px;
   flex-wrap: wrap;
+
+  @media (max-width:465px) {
+    font-size: 14px;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
 }
 
 
