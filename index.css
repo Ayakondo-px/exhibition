@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: url(/image/wing.png),auto;
+}
+
 body {
   font-family: "Shippori Mincho", serif;
   font-weight: 400;
