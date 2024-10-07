@@ -94,7 +94,7 @@ footer {
 
 .index-rooms li {
   display: flex;
-  width: clamp(150px,20cqi,250px);
+  width: clamp(140px,20cqi,250px);
   height: clamp(180px,40cqb,430px);
   flex-direction: column;
   justify-content: center;
@@ -113,7 +113,8 @@ footer {
   min-width:350px;
 
   @media (max-width: 400px) {
-    min-width: 200px;
+    width: 70vh;
+    gap: 20px
   }
 }
 
@@ -127,7 +128,8 @@ footer {
   min-width: 350px;
 
   @media (max-width: 400px) {
-    min-width: 200px;
+    width: 70vh;
+    gap: 20px;
   }
 }
 
