@@ -193,6 +193,10 @@ footer {
   align-content: center;
   justify-content: center;
   gap: 8px;
+
+  @media (max-width:465px) {
+    gap: 4px;
+  }
 }
 
 .entrance-text {
