@@ -206,6 +206,10 @@ footer {
   align-items: center;
   align-content: center;
   justify-content: center;
+
+  @media (max-width:465px) {
+    font-size: 14px;
+  }
 }
 
 .entrance-icon {
@@ -218,6 +222,11 @@ footer {
     align-items: center;
   align-content: center;
   justify-content: center;
+
+  @media (max-width:465px) {
+    width: 15px;
+    height: 20px;
+  }
 }
 
 
