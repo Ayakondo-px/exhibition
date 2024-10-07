@@ -90,6 +90,10 @@ footer {
   gap: 40px;
   flex-wrap: wrap;
   width: 70vw;
+
+  @media (max-width: 400px) {
+    gap: 20px;
+  }
 }
 
 .index-rooms li {
