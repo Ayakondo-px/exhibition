@@ -233,7 +233,14 @@ footer {
   justify-content: center;
   align-items: flex-start;
   gap: 56px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+
+  @media (max-width:465px) {
+    font-size: 14px;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
 }
 
 .room1-rooms .room1 {
