@@ -91,10 +91,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 32px;
 
   @media (max-width: 465px) {
-    font-size: 24px;
+    font-size: clamp(20px,6vw,32px)
   }
 }
 
@@ -185,7 +186,7 @@ footer {
 
   @media (max-width:586px) {
     display: block;
-    height: 280;
+    height: 250px;
     width: auto;
   }
 }
@@ -438,7 +439,7 @@ footer {
   flex-wrap: wrap;
   padding-block: 56px;
 
-  @media (max-width:566px) {
+  @media (max-width:580px) {
     flex-wrap: wrap-reverse;
   }
 }
@@ -454,6 +455,11 @@ footer {
   font-style: normal;
   line-height: 1.6;
   gap: 24px;
+
+  @media (max-width:579px) {
+    justify-content: center;
+    align-items: center;    
+  }
 }
 
 .instagram {
